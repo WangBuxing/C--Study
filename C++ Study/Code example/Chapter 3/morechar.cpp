@@ -3,7 +3,7 @@
 int main()
 {
     using namespace std;
-    char ch = 'M';       // assign ASCII code for M to ch
+    char ch = 'M';       // assign ASCII code for M to ch,注意字符串需要用''括起来
     int i = ch;          // store same code in an int
     cout << "The ASCII code for " << ch << " is " << i << endl;
 

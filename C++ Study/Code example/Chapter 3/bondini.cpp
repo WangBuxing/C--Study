@@ -9,7 +9,8 @@ int main()
     cin >> code;
     cout << "\aYou entered " << code << "...\n";
     cout << "\aCode verified! Proceed with Plan Z3!\n";
-    // cin.get();
-    // cin.get();
-    return 0; 
+    // cout << "\\"<<"sad "<<endl;  //ps: '//'表示/
+        // cin.get();
+        // cin.get();
+        return 0;
 }
