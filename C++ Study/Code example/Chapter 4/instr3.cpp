@@ -8,7 +8,7 @@ int main()
     char dessert[ArSize];
 
     cout << "Enter your name:\n";
-    cin.get(name, ArSize).get();    // read string, newline
+    cin.get(name, ArSize).get();    // read string, newline,get()并不读取并丢弃换行符，而是将其留在输入队列中
     cout << "Enter your favorite dessert:\n";
     cin.get(dessert, ArSize).get();
     cout << "I have some delicious " << dessert;

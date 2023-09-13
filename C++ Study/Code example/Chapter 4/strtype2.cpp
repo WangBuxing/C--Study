@@ -1,4 +1,4 @@
-// strtype2.cpp �- assigning, adding, and appending
+// strtype2.cpp �- assigning, adding, and appending
 #include <iostream>
 #include <string>               // make string class available
 int main()
@@ -18,7 +18,7 @@ int main()
     s3 = s1 + s2;
     cout << "s3: " << s3 << endl;
     cout << "You can append strings.\n";
-    s1 += s2;
+    s1 += s2; //指把s2附加到s1的末尾
     cout <<"s1 += s2 yields s1 = " << s1 << endl;
     s2 += " for a day";
     cout <<"s2 += \" for a day\" yields s2 = " << s2 << endl;

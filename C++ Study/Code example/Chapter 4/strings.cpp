@@ -17,7 +17,7 @@ int main()
     cout << strlen(name1) << " letters and is stored\n";
     cout << "in an array of " << sizeof(name1) << " bytes.\n";
     cout << "Your initial is " << name1[0] << ".\n";
-    name2[3] = '\0';                // set to null character
+    name2[3] = '\0';                // set to null character，输出数组时，遇到'\0'中止
     cout << "Here are the first 3 characters of my name: ";
     cout << name2 << endl;
     // cin.get();

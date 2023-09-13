@@ -25,7 +25,7 @@ int main()
     cout << "The string " << str1 << " contains "
          << len1 << " characters.\n";
     cout << "The string " << charr1 << " contains "
-         << len2 << " characters.\n";
+         << len2 << " characters.\n";   //strlen()用于计算c字符串长度，在c中字符串长度不包括结尾的空字符'\0'的字符个数·
     // cin.get();
 
     return 0; 

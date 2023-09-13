@@ -13,7 +13,7 @@ int main()
     cout << "pw = " << pw << ", *pw = " << *pw << endl;
     pw = pw + 1;
     cout << "add 1 to the pw pointer:\n";
-    cout << "pw = " << pw << ", *pw = " << *pw << "\n\n";
+    cout << "pw = " << pw << ", *pw = " << *pw << "\n\n";   //double一个是8位
 
     cout << "ps = " << ps << ", *ps = " << *ps << endl;
     ps = ps + 1;
@@ -26,8 +26,8 @@ int main()
     cout << "access two elements with pointer notation\n";
     cout << "*stacks = " << *stacks
          << ", *(stacks + 1) =  " << *(stacks + 1) << endl;
-
-    cout << sizeof(wages) << " = size of wages array\n";
+    // cout << stacks + 1 << "\n";
+    cout << sizeof(wages) << " = size of wages array\n";    //每个double元素8个字节
     cout << sizeof(pw) << " = size of pw pointer\n";
     // cin.get();
     return 0; 
